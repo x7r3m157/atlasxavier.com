@@ -8,5 +8,14 @@ module.exports = {
     options: {
       "trackingId": "G-3EJV664NT4"
     }
-  }]
+  },
+  {
+    resolve: 'gatsby-plugin-web-font-loader',
+    options: {
+      typekit: {
+        id: process.env.TYPEKIT_ID,
+      }
+    }
+  }
+]
 };

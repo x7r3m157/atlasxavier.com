@@ -16,7 +16,9 @@
   "dependencies": {
     "gatsby": "^4.7.1",
     "gatsby-plugin-google-analytics": "^4.7.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-tsparticles": "^1.41.0"
   }
 }
