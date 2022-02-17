@@ -26,7 +26,7 @@ const IndexPage = () => {
 
       const interval = setInterval(() => {
 
-      fetch('https://api.ouraring.com/v2/usercollection/daily_activity?start_date=2021-11-01&end_date=2021-12-01', requestOptions) 
+      fetch('https://www.atlasxavier.com/https://api.ouraring.com/v2/usercollection/daily_activity?start_date=2021-11-01&end_date=2021-12-01', requestOptions) 
         .then(response => response.text()) 
         .then(result => setOura(oura => oura += result)) 
         .catch(error => console.log('error', error));
