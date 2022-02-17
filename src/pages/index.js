@@ -33,7 +33,6 @@ const IndexPage = () => {
             <h4 className={navItem}>SRS NOTES</h4>
             <h4 className={navItem}>SKILLTREE</h4>
           </div>
-          <h3>OURA DATA: {oura} </h3>
           
       </div>
       <div className={container}>
