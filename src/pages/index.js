@@ -13,27 +13,7 @@ import {
 
 const IndexPage = () => {
 
-  // const [oura, setOura] = useState('')
 
-  // useEffect(() => {
-
-  //     var myHeaders = new Headers(); 
-  //     myHeaders.append('Authorization', 'Bearer Q7XKSFKQBNNKTGI3H7MCEIA3EJUMBLFX'); 
-  //     var requestOptions = { 
-  //       method: 'GET', 
-  //       headers: myHeaders, 
-  //     }
-
-  //     const interval = setInterval(() => {
-
-  //     fetch('https://www.atlasxavier.com/https://api.ouraring.com/v2/usercollection/daily_activity?start_date=2021-11-01&end_date=2021-12-01', requestOptions) 
-  //       .then(response => response.text()) 
-  //       .then(result => setOura(oura => oura += result)) 
-  //       .catch(error => console.log('error', error));
-  //     }, 5000);
-  //     return () => clearInterval(interval);
-    
-  //   }, [oura]);
     
     
 
